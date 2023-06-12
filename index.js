@@ -14,7 +14,7 @@ val.autoMinerUpgradeBought = 0;
 val.autoMinerBoosterFirstBuy = 0;
 hideElements();
 tickUpdate();
-//enableCheats();
+enableCheats();
 
 document.getElementById("mineCryptoButton").addEventListener("click", addCrypto);
 document.getElementById("upgradeButton").addEventListener("click", buyButtonUpgrade);
